@@ -36,7 +36,7 @@ class App extends Component {
             <Route path="/dashboard" component={dashboard} />
             <Route path="/users" component={User}></Route>
             <Route path="/report" component={Report}></Route>
-            <Route path="/" component={LandingPage} />
+            <Route path="/ " component={LandingPage} />
           </Switch>
         </div>
       </div>
