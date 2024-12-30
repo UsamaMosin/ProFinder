@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,700&display=swap");
+.right-sidebar {
+  flex-basis: 25%;
+  align-self: flex-start;
+  flex-direction: column;
+  position: sticky;
+  top: 73px;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.img-contain {
+  display: flex;
+  padding-left: 60px;
+}
+.sidebar-news {
+  background: #fff;
+  padding: 10px 25px;
+}
+
+.info-icon {
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+
+.sidebar-news h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0 30px;
+}
+
+.sidebar-news a {
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.sidebar-news span {
+  font-size: 12px;
+}
+
+.sidebar-news .read-more-link {
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+
+.sidebar-ad1 {
+  background: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 12px 0;
+  font-size: 12px;
+}
+
+.sidebar-ad1 img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.sidebar-ad1 small {
+  float: right;
+  font-weight: 500;
+}
+
+.sidebar-ad1 p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.sidebar-ad1 b {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.ad1-link {
+  display: inline-block;
+  border: 1px solid #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px auto 10px;
+}
+
+.sidebar-useful-links {
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.sidebar-useful-links a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.copyright-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.copyright-message img {
+  width: 18px;
+  margin-right: 4px;
+}

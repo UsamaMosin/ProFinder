@@ -1,0 +1,135 @@
+.post-contains {
+  padding-right: 30px;
+}
+.main-contents {
+  flex-basis: 100%;
+  margin-right: auto;
+  width: 888px;
+  position: sticky;
+  margin-top: 15px;
+}
+.card-img-bottom {
+  max-height: 600px;
+}
+.add-post-form {
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  width: 500px;
+  background-image: linear-gradient(to right, #6099d3 0%, #78a2e0 100%);
+  border-radius: 6px;
+  align-items: flex-start;
+  display: none;
+}
+.card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-text {
+  height: 125px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-footer .row {
+  flex-wrap: nowrap;
+}
+
+.btn {
+  white-space: nowrap;
+}
+.btn-danger {
+  margin-left: 65%;
+}
+.create-post {
+  background: #fff;
+}
+
+.create-post-input {
+  padding: 20px 25px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.create-post-input img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.create-post-input textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  resize: none;
+  background: transparent;
+  margin-top: 8px;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.create-post-links {
+  display: flex;
+  align-items: flex-start;
+}
+
+.create-post-links li {
+  list-style: none;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  flex-basis: 25%;
+  height: 40px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.create-post-links li img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.create-post-links li:last-child {
+  background: #045be6;
+  color: #fff;
+  border-top: 0;
+  border-right: 0;
+}
+
+.sort-by {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 65;
+}
+
+.sort-by hr {
+  flex: 1;
+  border: 0;
+  height: 1px;
+  width: 65%;
+  background: #ccc;
+}
+
+.sort-by p {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.sort-by p span {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sort-by p span img {
+  width: 12px;
+  margin-left: 3px;
+}

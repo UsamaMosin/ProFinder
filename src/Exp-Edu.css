@@ -1,0 +1,115 @@
+.profile-description {
+    margin-bottom: 20px;
+  }
+  
+  .add-icon-wrapper {
+    bottom: 10px;
+    left:10px;
+  }
+  
+  .add-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 800px;
+  }
+  
+  .profile-desc-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .profile-desc-row img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .profile-desc-row div {
+    flex-grow: 1;
+  }
+  
+  .profile-desc-row h3 {
+    margin-top: 0;
+  }
+  
+  .profile-desc-row b {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-desc-row p {
+    margin-bottom: 0;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .popup-header h3 {
+    margin: 0;
+  }
+  
+  .close-icon {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .popup hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 10px;
+  }
+  
+  .form-fields label {
+    flex-basis: 30%;
+    margin-right: 10px;
+    align-items: left;
+    position: relative;
+  }
+  
+  .form-fields .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .form-fields select {
+    margin-right: 10px;
+    width: 50%;
+  }
+  .form-fields input,
+  .form-fields textarea {
+    border: 1px solid black;
+    width: 100%;
+  }
+  .save-button {
+    float: right;
+  }
+  
